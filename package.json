@@ -1,0 +1,36 @@
+{
+  "name": "eslint_custom_rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-config-delta": "git+https://git@github.com/jamischarles/ps_eslint-config-delta.git",
+    "eslint-plugin-delta": "git+https://git@github.com/jamischarles/ps_eslint-plugin-delta.git",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-this": "^0.2.2",
+    "mocha": "^2.5.3",
+    "pre-commit": "^1.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemonk007/ESlint_Custom_Rules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemonk007/ESlint_Custom_Rules/issues"
+  },
+  "homepage": "https://github.com/codemonk007/ESlint_Custom_Rules#readme"
+}
