@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', {});
 });
 
-router.get('/vanilla', function(req, res, next) {
+router.get('/Vanilla', function(req, res, next) {
   res.render('index', {fileName: 'vanilla'});
 });
 
