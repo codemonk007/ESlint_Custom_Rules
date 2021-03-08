@@ -4,21 +4,33 @@
         "commonjs": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+                    "eslint:recommended"              
+                ],
+
+  "plugins": ["promise"],
     "parserOptions": {
         "sourceType": "module"
     },
     "rules": {
-        "indent": ["error",2],
+        "indent": ["error",1],
+        "no-var":"error",
         "linebreak-style": ["error","unix"],
         "no-console":"off",
         "depricatedMethod":"error",
-        "no-unused-vars":"off",
+        "no-unused-vars":"error",
         "no-await-in-loop":"error",
+        "no-undefined":"error",
+        "no-multiple-empty-lines":"error",
         "no-empty":"error",
         "no-restricted-modules": ["error", "underscore"],
         "eqeqeq": "error",
         "quotes": ["error","single"],
-        "semi": ["error","always"]
+        "semi": ["error","always"],
+        "no_Double_module.export":"error",
+        "promise/no-return-in-finally":"error",
+        "promise/prefer-await-to-then":"warn",
+        "promise/always-return": "error"
+        // "import/group-exports": "warn"
     }
 }
