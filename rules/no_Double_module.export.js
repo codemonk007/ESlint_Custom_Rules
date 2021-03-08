@@ -6,7 +6,7 @@ module.exports = {
         return {
 
             CallExpression: function(node) {
-                console.log(node.ExpressionStatement);
+                // console.log(node.ExpressionStatement);
                 
                 // let m = path.join(__dirname, "foo.js");
                 // console.log(m);                

@@ -1,4 +1,4 @@
 module.exports ={
-    "DEPRICATE_METHODS":[""],
+    "DEPRICATE_METHODS":["depricatedMethod"],
     
 }

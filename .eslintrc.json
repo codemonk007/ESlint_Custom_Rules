@@ -18,6 +18,8 @@
         "linebreak-style": ["error","unix"],
         "no-console":"off",
         "depricatedMethod":"error",
+        "no_multiple_module.exports":"error",
+        "route.validator":"error",
         "no-unused-vars":"error",
         "no-await-in-loop":"error",
         "no-undefined":"error",

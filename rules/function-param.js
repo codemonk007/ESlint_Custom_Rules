@@ -1,9 +1,7 @@
 module.exports = {
 
     create: function(context) {
-
         return {
-
             CallExpression: function(node) {
 
                 if (node.callee.name === "timeEnd") {
