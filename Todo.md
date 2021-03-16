@@ -47,3 +47,6 @@ BaseDir=/root/src -D sonar.sources=. -D sonar.projectName=”com.ESlint:ESlint-P
     -e SONAR_LOGIN="3ce454d8ccc5561d9a2da46bd967db987e9d8747" \
     -v "/Users/ganabhat/Desktop/mystack/ESlint_Custom_Rules/ES/ESlint_Custom_Rules:/usr/src" \
     sonarsource/sonar-scanner-cli -->
+
+    <!-- On mac go to sudo nano /etc/paths -->
+    <!-- add /Users/ganabhat/SonarScanner/bin  -->
