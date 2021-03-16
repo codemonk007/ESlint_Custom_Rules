@@ -13,7 +13,7 @@ module.exports = {
                             console.log(node.arguments[0].value); 
                             let arrayOfRoute =node.arguments[0].value.split('/');
                             arrayOfRoute.forEach(element => {
-                                let regEx=new RegExp("^[A-Z][a-zA-Z0-9.,$;]+$")
+                                let regEx=new RegExp("^[A-Z0-9][a-zA-Z0-9.,$;]+$")
                                 if(regEx.test(element)){
                                     context.report(node,"Route can have only small letter or numbers");
                                 }      
